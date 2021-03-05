@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">小米自动连招补丁</string>
+    <string name="module_description">小米自动连招补丁工具，解除自动连招限制。</string>
+    <string name="master_switch">总开关</string>
+    <string name="master_switch_summary">是否开启模块功能</string>
+    <string name="enable_sgame">王者荣耀</string>
+    <string name="enable_sgame_summary">开启王者荣耀自动连招功能</string>
+    <string name="about">About</string>
+    <string name="coolapk">CoolApk</string>
+    <string name="coolapk_summary">Small_Ke</string>
+    <string name="coolapk_link">http://www.coolapk.com/u/730570</string>
+    <string name="github">GitHub</string>
+    <string name="github_link">https://github.com/StimeKe/MiMacroPatch</string>
+    <string name="settings">Settings</string>
+    <string name="ignore">Ignore</string>
+    <string name="not_supported">您似乎正在使用过时的 LSPosed 版本或 LSPosed 未激活，请更新 LSPosed 或者激活后再试。</string>
+</resources>

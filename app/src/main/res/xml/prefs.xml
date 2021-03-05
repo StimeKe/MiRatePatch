@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress ALL -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        android:summary="@string/module_description"
+        app:iconSpaceReserved="false" />
+    <PreferenceCategory
+        android:title="@string/settings"
+        app:iconSpaceReserved="false">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="master_switch"
+            android:summary="@string/master_switch_summary"
+            android:title="@string/master_switch"
+            app:iconSpaceReserved="false" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/enable_sgame"
+            android:summary="@string/enable_sgame_summary"
+            android:title="@string/enable_sgame"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/about"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:summary="@string/github_link"
+            android:title="@string/github"
+            app:iconSpaceReserved="false">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/github_link" />
+        </Preference>
+        <Preference
+            android:summary="@string/coolapk_summary"
+            android:title="@string/coolapk"
+            app:iconSpaceReserved="false">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/coolapk_link" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
