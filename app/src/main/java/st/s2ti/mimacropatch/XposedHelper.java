@@ -8,6 +8,11 @@ import de.robv.android.xposed.XposedHelpers;
 
 
 public class XposedHelper {
+
+    public static void log(String Tag, String text) {
+        XposedBridge.log(Tag + ": " + text);
+    }
+
     public static void findAndHookMethod(String p1, ClassLoader lpparam, String p2, Object... parameterTypesAndCallback) {
         try {
             if (findClass(p1, lpparam) != null) {
