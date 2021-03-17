@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="st.s2ti.mimacropatch">
-
+    package="st.s2ti.miratepatch">
+    <uses-permission android:name="com.xiaomi.macro.permission"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="st.s2ti.mimacropatch.SettingsActivity">
+        <activity android:name="st.s2ti.miratepatch.SettingsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="de.robv.android.xposed.category.MODULE_SETTINGS" />

@@ -1,2 +1,2 @@
--keep class st.s2ti.mimacropatch.MainHook
+-keep class st.s2ti.miratepatch.MainHook
 

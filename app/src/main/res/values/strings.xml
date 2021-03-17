@@ -1,20 +1,15 @@
 <resources>
-    <string name="app_name">小米自动连招补丁</string>
-    <string name="module_description">小米自动连招补丁工具，解除自动连招限制。</string>
+    <string name="app_name">小米屏幕刷新率补丁</string>
+    <string name="module_description">小米屏幕刷新率补丁，解除屏幕刷新率限制。</string>
     <string name="master_switch">总开关</string>
     <string name="master_switch_summary">是否开启模块功能</string>
-    <string name="macro_switch">强制开启自动连招</string>
-    <string name="macro_switch_summary">某些机型云控关闭了自动连招，强制开启自动连招开关</string>
-    <string name="enable_sgame">王者荣耀</string>
-    <string name="enable_sgame_summary">开启王者荣耀自动连招功能</string>
-    <string name="about">About</string>
-    <string name="coolapk">CoolApk</string>
+    <string name="about">关于</string>
+    <string name="coolapk">酷安</string>
     <string name="coolapk_summary">Small_Ke</string>
     <string name="coolapk_link">http://www.coolapk.com/u/730570</string>
     <string name="github">GitHub</string>
-    <string name="github_link">https://github.com/StimeKe/MiMacroPatch</string>
-    <string name="settings">Settings</string>
-    <string name="ignore">Ignore</string>
+    <string name="github_link">https://github.com/StimeKe/MiRatePatch</string>
+    <string name="settings">设置</string>
+    <string name="ignore">忽略</string>
     <string name="not_supported">您似乎正在使用过时的 LSPosed 版本或 LSPosed 未激活，请更新 LSPosed 或者激活后再试。</string>
-    <string name="not_macro">您的设备未找到自动连招程序，暂不支持。</string>
 </resources>

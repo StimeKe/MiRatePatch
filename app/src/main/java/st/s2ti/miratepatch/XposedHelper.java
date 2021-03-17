@@ -1,4 +1,4 @@
-package st.s2ti.mimacropatch;
+package st.s2ti.miratepatch;
 
 import java.util.Set;
 

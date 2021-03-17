@@ -13,25 +13,11 @@
             android:summary="@string/master_switch_summary"
             android:title="@string/master_switch"
             app:iconSpaceReserved="false" />
-        <SwitchPreferenceCompat
-            android:defaultValue="true"
-            android:key="macro_switch"
-            android:summary="@string/macro_switch_summary"
-            android:title="@string/macro_switch"
-            app:iconSpaceReserved="false" />
-        <SwitchPreferenceCompat
-            android:defaultValue="true"
-            android:key="@string/enable_sgame"
-            android:summary="@string/enable_sgame_summary"
-            android:title="@string/enable_sgame"
-            app:iconSpaceReserved="false" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
         android:title="@string/about"
         app:iconSpaceReserved="false">
-
         <Preference
             android:summary="@string/github_link"
             android:title="@string/github"
@@ -49,5 +35,4 @@
                 android:data="@string/coolapk_link" />
         </Preference>
     </PreferenceCategory>
-
 </PreferenceScreen>

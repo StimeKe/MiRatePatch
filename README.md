@@ -1,2 +1,2 @@
-# MiMacroPatch
-XiaoMi MIUI Macro Patch
+# MiRatePatch
+XiaoMi MIUI Rate Patch

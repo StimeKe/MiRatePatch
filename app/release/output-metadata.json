@@ -4,14 +4,14 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "st.s2ti.mimacropatch",
+  "applicationId": "st.s2ti.miratepatch",
   "variantName": "processReleaseResources",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 1,
-      "versionName": "1.0",
+      "versionCode": 7,
+      "versionName": "1.6",
       "outputFile": "app-release.apk"
     }
   ]
